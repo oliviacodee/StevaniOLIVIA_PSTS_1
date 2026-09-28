@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Creatifity Festival</title>
+    <script src="https://cdn.tailwindscss.com"></script>
+</head>
+<body>
+    <!--judul-->
+    <header>
+        <h1>Student Creayifity Festival</h1>
+        <p>Showcase Your Creativity, Skills and Innovative Ideas</p>
+    </header>
+    <!--bagian-->
+    <main>
+        <section>
+            <!--form-->
+            <form action="#" method="#">
+                <!--nama-->
+                <label for="name">Student Name</label>
+                <input type="text" id="name" placeholder="Enter your full name"><br>
+                <!--pilihan kelas (dropdown)-->
+                <label for="class" id="class">Class</label>
+                <select>
+                    <option>X</option>
+                    <option>XI</option>
+                    <option>XII</option>
+                </select><br>
+
+                <!--gender(radiobutton)-->
+                <label for="gender" id="gender">Gender</label><br>
+
+                <input type="radio" id="male">
+                <label for="male" id="male">Male</label><br>
+
+                <input type="radio" id="female">
+                <label for="male" id="female">Female</label><br>
+
+                <!--jenis lomba (dropdown)-->
+                <label for="category" id="category">Competition Category</label>
+                <select>
+                    <option>Web Development</option>
+                    <option>IoT Project</option>
+                    <option>Graphic Design</option>
+                    <option>Public Speaking</option>
+                    <option>Photography</option>
+                </select><br>
+
+                <!--pilihan(radiobutton)-->
+                <label for="part-type" id="part-type">Participation Type</label><br>
+
+                <input type="radio" id="indi">
+                <label for="indi" id="indi">Individual</label><br>
+
+                <input type="radio" id="team">
+                <label for="team" id="team">Team</label><br>
+
+                <!--nama tim-->
+                <label for="team-name">Team Name</label>
+                <input type="text" id="team-name" placeholder="Enter your team's name"><br>
+
+                <!--nomor kontak-->
+                <label for="contact">Student Name</label>
+                <input type="num-tel" id="contact" placeholder="08xxxxxxxxx"><br><!--klo mau muncul +62 8xx-xxx-xxx pakai JAVASCRIPT-->
+
+                <label for="desc">Projectt Description</label>
+                <textarea id="desc" name="desc" placeholder="Describe your project or competition entry...."></textarea><br>
+
+                <button type="submit">
+                    Register Now
+                </button>
+            </form>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Participant</th>
+                        <th>Class</th>
+                        <th>Category</th>
+                        <th>Team</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Asep</td>
+                        <td>XI</td>
+                        <td>Web Development</td>
+                        <td>Team Alamak</td>
+                        <td>Registered</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>OYIP</td>
+                        <td>X</td>
+                        <td>Photography</td>
+                        <td>Team ASOYY</td>
+                        <td>Pending</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
